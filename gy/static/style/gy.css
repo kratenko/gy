@@ -1,0 +1,142 @@
+body { 
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  margin-bottom:1ex;
+}
+h2 {
+  margin-bottom:1ex;
+}
+ul {
+  margin-top:.5ex;
+}
+
+#gy\:main_body {
+	margin-top:180px;
+/*	margin-top:130px;*/
+/*	border:solid green 2px;*/
+	margin-right:205px;
+}
+#gy\:main_body h1.title {
+	margin-top:0;
+	border-bottom:solid 1px;
+	margin-bottom:0px;
+}
+
+
+#gy\:menu {
+	position:absolute;
+/*	top:114px;*/
+	top:180px;
+	right:5px;
+	width:195px;
+	margin:0;
+/*	border:solid #205020 2px;*/
+}
+#gy\:menu h5 {
+/*	background:#103010;*/
+	margin:0;
+	padding-left:1ex;
+	padding-top:.3ex;
+	padding-bottom:.3ex;
+	font-size:90%;
+}
+#gy\:menu ul {
+	margin:0;
+	padding:0;
+	padding-left:22px;
+	list-style-type:circle;
+/*	background:#081808;*/
+}
+#gy\:menu ul li {
+}
+#gy\:menu ul li a {
+	margin-left:-5px;
+/*	background:#081808;*/
+	width:200px;
+	padding-left:.5ex;
+	padding-right:.5ex;
+	text-decoration:none;
+}
+#gy\:menu ul li a:hover {
+	text-decoration:underline;
+}
+/*
+a:link {color:yellow;}
+a:visited {color:#808000;}
+a:focus {}
+a:hover {}
+a:active {}*/
+
+
+
+#gy\:personal {	
+	position:absolute;
+	right:1em;
+	top:.5em;
+}
+#gy\:personal ul {
+	list-style-image:none;
+	list-style-type:none;
+	margin:0;
+	
+}
+#gy\:personal ul li {
+	float: left;
+	margin-left:1em;
+}
+
+#gy\:main_logo {
+	position:absolute;
+/*	top:-14px;*/
+	top:4px;
+	left:50%;
+	margin-left:-100px;
+}
+
+
+
+/*h1.title {
+	border-bottom:1px solid;
+}*/
+
+/* PAGE */
+article.gy\:page span.gy\:edit_item {
+	float:right;
+}
+
+/* BLOG */
+article.gy\.blog\:post\.outline {
+	margin-bottom:4ex;
+}
+
+span.gy\.blog\:posted_info {
+	font-style:italic;
+}
+span.gy\.blog\:edit_link {
+	float:right;
+}
+
+h2.gy\.blog\:title {
+	margin-bottom:0px;
+	border-bottom:solid 1px #103010;
+}
+
+h2.gy\.blog\:title a {
+	text-decoration:none;
+}
+h2.gy\.blog\:title a:hover {
+	text-decoration:underline;
+}
+
+article.gy\:comment header h3 {
+	margin-bottom:0px;
+	border-bottom:solid 1px #103010;
+}
+
+article.gy\:comment {
+	padding-left:1ex;
+	margin-bottom:4ex;
+	border-left:solid 1px #103010;
+}
